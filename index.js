@@ -25,11 +25,12 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   } else {
     for (let i =0; i < katzDeliLine.length; i++) {
-      if (i < katzDeliLine.length) {
+        if (i < katzDeliLine.length) {
         linestring+= `${i}. ${katzDeliLine[i]}, `
       } else if (i === katzDeliLine.length) {
         linestring+= `${i}. ${katzDeliLine[i]}`
       }
     }
   }
+  return linestring
 }
