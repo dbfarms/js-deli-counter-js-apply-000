@@ -26,9 +26,9 @@ function currentLine(katzDeliLine) {
   } else {
     for (let i =0; i < katzDeliLine.length; i++) {
         if (i < katzDeliLine.length) {
-        linestring+= `${i}. ${katzDeliLine[i]}, `
+        linestring+= `${i+1}. ${katzDeliLine[i]}, `
       } else if (i === katzDeliLine.length) {
-        linestring+= `${i}. ${katzDeliLine[i]}`
+        linestring+= `${i+1}. ${katzDeliLine[i]}`
       }
     }
   }
