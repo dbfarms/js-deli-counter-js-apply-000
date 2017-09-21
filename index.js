@@ -1,4 +1,4 @@
-var katzdeli = []
+var katzdeliLine = []
 
 function takeANumber(katzDeliLine, newName) {
   katzDeliLine.push(newName);
@@ -6,5 +6,13 @@ function takeANumber(katzDeliLine, newName) {
     if (katzDeliLine[i] === newName) {
       return `Welcome, ${newName}. You are number ${katzDeliLine[i]+1} in line.`
     }
+  }
+}
+
+function nowServing() {
+  if (katzDeliLine === 0) {
+    return "There is nobody waiting to be served!"
+  } else {
+    katzDeliLine
   }
 }
