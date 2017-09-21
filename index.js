@@ -30,6 +30,6 @@ function currentLine(katzDeliLine) {
       } else if (i === katzDeliLine.length) {
         linestring+= `${i}. ${katzDeliLine[i]}.`
       }
-    } 
+    }
   }
 }
