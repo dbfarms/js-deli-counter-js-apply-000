@@ -28,7 +28,7 @@ function currentLine(katzDeliLine) {
       if (i < katzDeliLine.length) {
         linestring+= `${i}. ${katzDeliLine[i]}, `
       } else if (i === katzDeliLine.length) {
-        linestring+= `${i}. ${katzDeliLine[i]}.`
+        linestring+= `${i}. ${katzDeliLine[i]}`
       }
     }
   }
